@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.telegram"
-    compileSdk = 33
+    compileSdk = 34
     viewBinding.enable = true
 
     defaultConfig {
@@ -38,7 +38,7 @@ android {
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.core:core-ktx:1.8.0-beta01")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     testImplementation("junit:junit:4.13.2")
@@ -55,4 +55,6 @@ dependencies {
     implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
     // Add for NavController support
     implementation ("com.mikepenz:materialdrawer-nav:9.0.1")
+    // Add for Android-Iconics support
+    implementation ("com.mikepenz:materialdrawer-iconics:9.0.1")
 }
